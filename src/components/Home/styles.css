@@ -1,0 +1,68 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 100px;
+}
+.search-container {
+  height: 160px;
+  margin-bottom: 10px;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+}
+.results-container {
+  background-color: white;
+  height: 600px;
+  overflow-y: scroll;
+}
+input {
+  background-color: #f5f8fa;
+  border-radius: 18px;
+  width: 90%;
+  height: 30px;
+  border: 1px solid #e6ecf0;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px 12px;
+}
+button {
+  background-color: #006dbf;
+  border-color :#006dbf;
+  color: white;
+  border-radius: 100px;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  float: right;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+input:focus, button:focus {
+  outline: 0;
+  border-color: rgba(0, 132, 180, 0.5);
+}
+input:focus {
+  color: #14171a;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 12px;
+}
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+.user Link {
+  color: black;
+}
