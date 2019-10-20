@@ -68,7 +68,6 @@
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
-    "start": "yarn run start:client && yarn run start:server",
     "start:client": "node scripts/start.js",
     "start:server": "node server.js",
     "build": "node scripts/build.js",
